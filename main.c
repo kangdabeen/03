@@ -5,12 +5,13 @@
 
 
 	int main(void){
-		char text;
-		
-		printf("input a character : ");
-		scanf("%c", &text);
-		
-		printf("the next character of %c (%d) is %c (%d) \n", text, text, text+1 , text+1);
-		
+    int a,b;
+    float div;
+    
+    scanf("%d%d", &a, &b);
+    
+    div = (float)a/b;
+    
+    printf("%d/%d=%f",a,b,div);
 		return 0;
 	}
